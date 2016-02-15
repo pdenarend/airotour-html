@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Airotour - free walking tours everywhere</title>
+
+  	<meta name="Description" content="AiroTour. Free walking tours around the world, stay tuned for new walking tours and new cities to be added">
+  	<meta name="Keywords" content="airo, airotour, free, tours, tour, guided, walking">
+  	<meta name="robots" content="INDEX, FOLLOW">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+	
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"privacy","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+  </head>
+
+<body>
+ <!-- How it works section outside main site -->
+<div class="howitworks">
+	<div class="icon-close">
+         <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+       </div>
+    <div class="container">
+	 
+	         <h1>How does it work?</h1>
+        <h2>Get a great local guide in just 3 simple steps</h2>
+		    <div class ="steps"> 
+			<div class="row">
+				<div class="col-md-4">
+				<img src="pics/plan.png">
+				<h3>1. Book a Tour</h3>
+				<p>Book one of our free walking tours. We do ask however for a small booking fee. In this way we can control the size of the groups and guarantee the tour is running on the date of your choosing. In this way we can keep for you the highest level of our free tour service.</p>
+				<p><a href="all-tours">Click here to browse our tours.</a></p>
+				</div>
+				
+				<div class="col-md-4">
+				<img src="pics/guide.png">
+				<h3>2. Explore with a Guide</h3>
+				<p>Your tour guide will be waiting for you on the pre-arranged meeting point. He/She will introduce you to the city and answer any question you might have. All our guides are selected for their enthousiasm and knowledge of their city and country.</p>
+				<p><a href="our-guides.html">Learn more about our guides.</a></p>
+				</div>
+				
+				<div class="col-md-4">
+				<img src="pics/group.png">
+				<h3>3. Tip the guide!</h3>
+				<p>Once the tour is done you tip the guide the money they deserve. We think our Free walking tours are more fair to you as the customer because on the end you pay what you see and get.<br style="clear:both" /> Conclusion: The free tour concept is a win-win scenario for both you 'the traveller' and our guides.</p>
+				<p><a href="free-tour-policy.html">Learn about tipping at airoTour.</a></p>
+                </div>
+			</div>
+		</div>
+    </div>
+ </div>
+
+<!-- Navigation bar -->
+<div class="mainnav">
+<div class="nav">
+	<div class="container">
+  		<ul class="pull-left">
+  			<li><img src="favicon/favicon-16x16.png"><a href="">airoTour</a></li>
+  			<li><a href="all-tours.html">Browse Tours</a></li>
+		</ul>
+		
+		<ul class="pull-right">
+          <li><a href="become-a-tour-guide">Become a Guide</a></li>
+          <li><a href="http://airotour.checkfront.com">My Booking</a></li>
+		  <li><a href="blog">Blog</a></li>
+          <li><a href="contact.php">Contact</a></li>
+		  <li><a href=""><img src="pics/English.jpg"></a></li>
+		  <li><a href="es/"><img src="pics/spain.png"></a></li>
+
+        </ul>
+  	</div>
+  	</div>
+	</div>
+	
+<!-- Mobile Nav -->
+
+<div class="mobile-nav">
+<div class="container">
+  		<ul >
+  			<li class="pull-left"><a href=""><img src="pics/logonav.png"></a></li>
+			<li class="pull-right"><a class="btn btn-default" data-toggle="collapse" aria-expanded="false" href="#mobile-menu"><strong>Menu</strong></a></li>
+			</ul>
+			
+			<div class="collapse" id="mobile-menu">
+			<div class="collapsedmenu">
+			<div class="btn-group-vertical">
+			
+				<button type="button" class="btn btn-default"><a href="all-tours.html">Browse Tours</a></button>
+				<button type="button" class="btn btn-default"><a href="become-a-tour-guide">Become a Guide</a></button>
+				<button type="button" class="btn btn-default"><a href="http://airotour.checkfront.com">My Booking</a></button>
+				<button type="button" class="btn btn-default"><a href="blog">Blog</a></button>
+				<button type="button" class="btn btn-default"><a href="contact.php">Contact</a></li></button>
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Languages<span class="caret"></span></button>
+						<ul class="dropdown-menu" role="menu">
+						  <li><a href=""><img src="pics/English.jpg">English</a></li>
+						  <li><a href="es/"><img src="pics/spain.png">Spanish</a></li>
+						</ul>
+										
+					
+			</div>
+			 
+		
+</div></div></div></div>
+	
+<!-- Jumbotron -->
+<div class="front-image">
+    <div class="jumbotron">
+	
+      <div class="container">
+	
+        <h1>AiroTour, your FREE tour anywhere</h1>
+        <p>Get free tours from local guides, in many cities around the world</p>
+		<div>
+		  <p class="button"><a class="icon-menu">See how it works</a></p>
+		</div> 
+      </div>
+	  
+    </div> 
+	</div>
+	
+	
+<!-- intro text under jumbotron-->
+<div class="intro">
+	<div class="container">
+	<h2>Welcome to AiroTour, the perfect way of exploring new cities.</h2>
+	<p>The idea behind AiroTour is simple: first, you book one of our free walking tours. Our local guides then show you the best parts of the city and answer all your questions about local culture and customs. After, you just tip the guide for his effort. Join many happy city explorers in this new way of getting to know a city. In our opinion, this is the best way to really get to know a place. Just have a look at some of the benefits of this way of exploring:</p>
+	<p>
+    <ul>
+	<li>Free walking tours; you tip what you want</li>
+	<li>Small groups; our booking system makes sure no group will be more than 20 people</li>
+	<li>The best local guides; we vet every guide and tour to make sure you get the best experience</li>
+	<li>No tour will be boring. None of our guides gets paid beforehand, so they know a boring monologue or a subpar performance will result in less tips</li>
+	<li>Lots of choice; we operate many different free tours in every city, so we make sure you will see something that interests you, whether it be local culture or religious art in churches.</li>
+	</ul>
+   
+ </div>
+</div>
+	
+<!-- Different examples in thumbnails -->
+<div class="neighborhood-guides">
+   <div class="container">
+   <div class="wheretogo">
+       <h2>Where do you want to go?</h2>
+       <p>Find amazing local experiences with the best guides in the world.</p>
+	   </div>
+       <div class="row">
+           
+		   <div class="col-md-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Amsterdam</h4>
+						<p>Amsterdam has a bit of a reputation, but in fact it is a lovely and beautiful city with a rich history. On our free walking tour, you will discover the highlights of the city.</p>
+						<p><a href="netherlands/amsterdam/free-tour-amsterdam.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Amsterdam now!">Book Now!</a></p>
+					</div>
+					
+					<a link href="netherlands/amsterdam/free-tour-amsterdam.html" target="_blank"><img src="pics/free-tour-amsterdam.jpg"></a>
+				</div>
+				<div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Rome</h4>
+						<p>Rome is the eternal city. 2500 years of history have left the place filled with amazing stories. Join our guides on free tours of Rome. You will not be disappointed!</p>
+						<p><a href="italy/rome/free-tour-rome" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Rome now!">Book Now!</a></p>
+					</div>
+			   <a link href="italy/rome/free-tour-rome" target="_blank"><img src="pics/free-tour-rome.jpg"></a>
+			   </div>
+				
+			</div>
+				
+		    			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+			   		<div class="caption">
+						<h4>Free Tours in Lyon</h4>
+						<p>Lyon is the culinary capital of France. But this beautiful city has so much more to offer. Find out and join our guides on one of our free walking tours in Lyon.</p>
+						<p><a href="france/lyon/free-tour-lyon" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Lyon now!">Book Now!</a></p>
+					</div>
+			   <a link href="france/lyon/free-tour-lyon" target="_blank"><img src="pics/free-tour-lyon.jpg"></a>
+			   </div>
+			   
+			   <div class="thumbnail">
+			   		<div class="caption">
+						<h4>Free Tours in Madrid</h4>
+						<p>Madrid is fun! The nightlife is world famous and the museums and parcs will awe you. Every neighborhood is different in Madrid. Our guides would love to show you.</p>
+						<p><a href="spain/madrid/free-tour-madrid" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Madrid now!">Book Now!</a></p>
+					</div>
+
+			   <a link href="spain/madrid/free-tour-madrid" target="_blank"><img src="pics/free-tour-madrid.jpg"></a>
+			   </div>
+           </div>
+		   
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Become a Tourguide</h4>
+						<p>If you like working with people, explaining your culture and history, becoming a tour guide might be the perfect job for you. You can decide on your own tours and pick your own hours to work. </p><p>We are always looking for new guides to set up new tours in cities and touristic areas. You will meet a lot of friendly people and make some cash while showing your city. Send us an email for more details!</p>
+						<p><a href="become-a-tour-guide" class="label label-pill label-danger" rel="tooltip" title="How can you become a tourguide with AiroTour">How to become a tourguide</a></p>
+					</div>
+			   <a link href="become-a-tour-guide" target="_blank"><img src="pics/become-a-tourguide.jpg"></a>
+			   </div>
+           </div>
+		   
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Naples</h4>
+						<p>Naples is the undiscovered gem of Italy. When you walk around the city, it seems like you went back in time. Why not join one of our free tours to discover the true Naples?</p>
+						<p><a href="italy/naples/free-tour-naples" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Naples now!">Book Now!</a></p>
+					</div>
+			   <a link href="italy/naples/free-tour-naples" target="_blank"><img src="pics/free-tour-naples.jpg"></a>
+			   </div>
+			</div>
+		
+           <div class="col-md-4">
+			  <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Kuala Lumpur</h4>
+						<p>Kuala Lumpur is the beating heart of Malaysia. It has a great mix of cultures and there is just so much to see. Join us on a free tour of Kuala Lumpur today and find out!</p>
+						<p><a href="malaysia/kuala-lumpur/free-tour-kuala-lumpur" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Kuala Lumpur now!">Book Now!</a></p>
+					</div>
+			   <a link href="malaysia/kuala-lumpur/free-tour-kuala-lumpur" target="_blank"><img src="pics/free-tour-kuala-lumpur.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+			   
+					<div class="caption">
+						<h4>Free Tours in Paris</h4>
+						<p>Paris is the cultural, economical and political heart of France. There is no city like it. Book one of our free tours of Paris and enjoy!</p>
+						<p><a href="france/paris/free-tour-paris" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Paris now!">Book Now!</a></p>
+					</div>
+			   <a link href="france/paris/free-tour-paris" target="_blank"><img src="pics/free-tour-paris.jpg"></a>
+			   </div>
+		   </div>
+		   
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in London</h4>
+						<p>Even though the weather is not always perfect, London has enough attractions to fascinate you for weeks. Join one of our free tours in London, the perfect introduction.</p>
+						<p><a href="england/london/free-tour-london" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of London now!">Book Now!</a></p>
+					</div>
+			   <a link href="england/london/free-tour-london" target="_blank"><img src="pics/free-tour-london.jpg"></a>
+			   </div>
+			</div>
+			
+			<div class="col-md-4">
+		   
+		   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Barcelona</h4>
+						<p>Barcelona is a vibrant Spanish city with a strong local character. Our guides will tell you all about Catalan culture and show you the best places to go.</p>
+						<p><a href="spain/barcelona/free-tour-barcelona" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Barcelona now!">Book Now!</a></p>
+					</div>
+					<a link href="spain/barcelona/free-tour-barcelona" target="_blank"><img src="pics/free-tour-barcelona.jpg"></a>
+				</div>
+			   
+			</div>
+			<div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Berlin</h4>
+						<p>Berlin captivates you. It's a great city to hang out and enjoy some true German culture. Come with us on a free tour of Berlin!</p>
+						<p><a href="germany/berlin/free-tour-berlin.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Berlin now!">Book Now!</a></p>
+					</div>
+			   <a link href="germany/berlin/free-tour-berlin.html" target="_blank"><img src="pics/free-tour-berlin.jpg"></a>
+			   </div>
+			</div>
+			
+          
+			
+       
+       </div>
+	  
+	<!-- button under destinations --> 
+
+	   <div class="toursbutton">
+		<a class="btn btn-default" data-toggle="collapse" aria-expanded="false" href="#moredestinations"><strong>See More Destinations</strong></a></div>
+		
+	<!-- collapsed more destinations -->
+		<div class="collapse" id="moredestinations">
+           <div class="row">
+		  <div class="col-md-4">
+			   <div class="thumbnail">
+					
+			   <a link href="uae/dubai/free-tour-dubai.html" target="_blank"><img src="pics/free-tour-dubai.jpg"></a>
+			   <div class="caption">
+						<h4>Free Tours in Dubai</h4>
+						<p>Dubai mixes everything; the East, the West, old and new. It is an exciting place to be, with lots to see. Join a free tour of Dubai and get to know this fast-changing place.</p>
+						<p><a href="uae/dubai/free-tour-dubai.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Dubai now!">Book Now!</a></p>
+					</div>
+			   </div>
+			</div>
+		
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Istanbul</h4>
+						<p>Istanbul is the proud Turkish capital on the Bosporus. It's located on the border between Europe and Asia. Discover the city on a free tour of Istanbul!</p>
+						<p><a href="turkey/istanbul/free-tour-istanbul.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Istanbul now!">Book Now!</a></p>
+					</div>
+			   <a link href="turkey/istanbul/free-tour-istanbul.html" target="_blank"><img src="pics/free-tour-istanbul.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+			   
+					<div class="caption">
+						<h4>Free Tours in Hong Kong</h4>
+						<p>Hong Kong is the perfect introduction to China. It's British past and its Cantonese inhabitants provide a great mix of cultures. Join a free tour of Bangkok today!</p>
+						<p><a href="china/hong-kong/free-tour-hong-kong.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Hong Kong now!">Book Now!</a></p>
+					</div>
+			   <a link href="china/hong-kong/free-tour-hong-kong.html" target="_blank"><img src="pics/free-tour-hong-kong.jpg"></a>
+			   </div>
+		   </div>
+		   
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Tokyo</h4>
+						<p>Tokyo is the perfect city to get completely culture-shocked without ever being in danger. It's safe, modern and a bit crazy. Join a free tour of Tokyo now!</p>
+						<p><a href="japan/tokyo/free-tour-tokyo.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Tokyo now!">Book Now!</a></p>
+					</div>
+			   <a link href="japan/tokyo/free-tour-tokyo.html" target="_blank"><img src="pics/free-tour-tokyo.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Milan</h4>
+						<p>Milan is quintessential Italy. It's stylish, fashionable and the food is amazing. It makes for a perfect weekend getaway. Book your free tour of Milan today!</p>
+						<p><a href="italy/milan/free-tour-milan.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Milan now!">Book Now!</a></p>
+					</div>
+			   <a link href="italy/milan/free-tour-milan.html" target="_blank"><img src="pics/free-tour-milan.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Vienna</h4>
+						<p>Vienna is the majestic capital of Austria on the danube. It's a city of music, art and architecture. Find out everything about this noble city on a free tour of Vienna!</p>
+						<p><a href="austria/vienna/free-tour-vienna.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Vienna now!">Book Now!</a></p>
+					</div>
+			   <a link href="austria/vienna/free-tour-vienna.html" target="_blank"><img src="pics/free-tour-vienna.jpg"></a>
+			   </div>
+			</div>
+			
+			<div class="col-md-4">
+			   <div class="thumbnail">
+					
+			   <a link href="czech-republic/prague/free-tour-prague.html" target="_blank"><img src="pics/free-tour-prague.jpg"></a>
+			   <div class="caption">
+						<h4>Free Tours in Prague</h4>
+						<p>Prague is one of the most beautiful cities of Eastern Europe. It's sometimes called 'The City of the Hundred Spires'. Come and discover this city on a free tour of Prague!</p>
+						<p><a href="czech-republic/prague/free-tour-prague.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Prague now!">Book Now!</a></p>
+					</div>
+			   </div>
+			</div>
+		
+            <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in New York</h4>
+						<p>New York is one of the greatest cities in the world. Get a great introduction with one of our local guides on a free tour of New York.</p>
+						<p><a href="usa/new-york/free-tour-new-york" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of New York now!">Book Now!</a></p>
+					</div>
+			   <a link href="usa/new-york/free-tour-new-york" target="_blank"><img src="pics/free-tour-new-york.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+			   
+					<div class="caption">
+						<h4>Free Tours in Miami</h4>
+						<p>Miami is a crazy mix of Latin passion and American culture. It's hot, it's fun and there is a lot to see. Join us on a free tour of Miami, to discover it all!</p>
+						<p><a href="usa/miami/free-tour-miami.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Miami now!">Book Now!</a></p>
+					</div>
+			   <a link href="usa/miami/free-tour-miami.html" target="_blank"><img src="pics/free-tour-miami.jpg"></a>
+			   </div>
+		   </div>
+		   
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Munich</h4>
+						<p>Munich is the city of Octoberfest. But there is so much more to the city than just a great place to drink beer. Come and find out on a free tour of Munich!</p>
+						<p><a href="germany/munich/free-tour-munich.html" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Munich now!">Book Now!</a></p>
+					</div>
+			   <a link href="germany/munich/free-tour-munich.html" target="_blank"><img src="pics/free-tour-munich.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+			   <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Sydney</h4>
+						<p>Sydney is a fun city. The climate is great, the people are friendly and there is just so much to see and do. Book a free tour of Sydney today to really get to know it!</p>
+						<p><a href="australia/sydney/free-tour-sydney" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Sydney now!">Book Now!</a></p>
+					</div>
+			   <a link href="australia/sydney/free-tour-sydney" target="_blank"><img src="pics/free-tour-sydney.jpg"></a>
+			   </div>
+			</div>
+			
+           <div class="col-md-4">
+		   
+		    <div class="thumbnail">
+					<div class="caption">
+						<h4>Free Tours in Bangkok</h4>
+						<p>Bangkok is enormous and great fun! Our guides will show you all the highlights and help you enjoy the amazing thai culture. Enjoy your trip to Bangkok!</p>
+						<p><a href="thailand/bangkok/free-tour-bangkok" class="label label-pill label-danger" rel="tooltip" title="Book your free tour of Bangkok now!">Book Now!</a></p>
+					</div>
+			   <a link href="thailand/bangkok/free-tour-bangkok" target="_blank"><img src="pics/free-tour-bangkok.jpg"></a>
+			   </div>
+			   
+			</div>
+			
+			</div></div>
+			
+		
+		
+   </div></div>
+
+	
+	<!-- learn more section -->
+<div class="learn-more">
+  <div class="container">
+	<div class="row">
+      <div class="col-md-4">
+		<h3>Local Culture</h3>
+		<p>From city highlights in Paris to culinary tours in Tokyo: experience local culture in 142 countries with our guides.</p>
+		<p><a href="our-guides.html">Get to know our Guides</a></p>
+      </div>
+	  <div class="col-md-4">
+		<h3>All tours are Free</h3>
+		<p>All our guides work for tips only. This ensures every guide will make sure to give you the best experience possible. You just tip him or her with any money you can!</p>
+		<p><a href="free-tour-policy.html">Learn more about our free tour policy</a></p>
+	  </div>
+	  <div class="col-md-4">
+		<h3>Trust and Safety</h3>
+		<p>We work only with people we trust. All our guides and tours are vetted to get you the best experience possible. Furthermore, we have a customer support team to handle all your questions and requests.</p>
+		<p><a href="about.html">Learn more about our company</a></p>
+	  </div>
+    </div>
+  </div>
+</div>
+
+<!--........................................  FAQ     .......................................-->
+<!--.........................................................................................-->
+
+<div class="faq">
+<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center">FAQ <br><small> You have questions,we have answers.</small></h1>
+
+            <div class="well well-sm entete"></div>
+    </div>
+        <br>
+        <br>
+    <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">I see you charge a booking fee of 2,50? I thought the tours are free.</a></h4>
+                </div>
+				
+                <div id="collapseFour" class="panel-collapse collapse ">
+                    <div class="panel-body">Yes, if you want to book one of our tours, we charge a small booking fee of 2,50. This is to cover the costs of maintaining our office, booking engine and website. Also, this way we can guarantee that the groups are never bigger than 20 persons, so you always will be able to understand and interact with the guide.</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">What language are the tours in?</a></h4>
+                </div>
+				
+                <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">Most of our tours are in English. However, we also provide tours in different languages. Make sure you check which language your tour is in before you book.</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">I can't find a tour in the city I want to visit. Do you have tours there?</a></h4>
+                </div>
+				
+                <div id="collapseSix" class="panel-collapse collapse">
+                    <div class="panel-body">At the moment, AiroTour is expanding quickly throughout the world. We are always looking to start new tours. If your destination is not available, check back soon. We might have found a great guide and started a tour!</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">How much should I tip the guide?</a></h4>
+                </div>
+				
+                <div id="collapseSeven" class="panel-collapse collapse">
+                    <div class="panel-body">Our guides work for tips only. You can tip them as much or little as you want. Just give them the amount you think the tour deserved. This system makes sure that the guides work hard for their money and you get the best tour possible. Also, if you are on a small budget, you can still enjoy a great tour with the best guides on your holiday!</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseHeight">Can I  make changes to my reservation after I booked?</a></h4>
+
+                </div>
+                <div id="collapseHeight" class="panel-collapse collapse">
+                    <div class="panel-body">Yes, this is no problem at all. We will always try to accommodate your needs, if they are reasonable. You can even cancel and get your money back if you do it 72 hours in advance.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--start footer-->    
+<div class="mainnav">
+<div class="nav">
+	<div class="footer">
+    	<div class="container">
+        	<ul class="pull-left">
+  			<a href=""><img src="pics/logo1.png"></a>
+			</ul>
+		
+        	<ul class="pull-right">
+        	<li><h3>Work with us</h3>
+        	<p><a href="become-a-tour-guide">Become a Guide</a></p>
+			<p><a href="careers/careers.html">Careers</a></p>
+        	<p><a href="http://airotour.checkfront.com">Register</a></p>
+        	<p><a href="http://airotour.checkfront.com">Partner log in</a></p>
+        	<p><a href="http://airotour.checkfront.com">Invite Friends</a></p>
+          </li>
+        </ul>
+
+        	<ul class="pull-right">
+        	<li><h3>Useful info</h3>
+        	<p><a href="about">About us</a></p>
+        	<p><a href="contact.php">Contact us</a></p>
+        	<p><a href="terms-and-conditions">Terms and conditions</a></p>
+			<p><a href="privacy">Privacy</a></p>
+			<p><a href="disclaimer">Disclaimer</a></p>
+        	<p><a href="sitemap.xml">Sitemap</a></p>
+           </li>
+        </ul>
+
+        	<ul class="pull-right">
+        	<li><h3>Manage</h3>
+        	<p><a href="http://airotour.checkfront.com">My booking</a></p>
+        	<p><a href="http://airotour.checkfront.com">Print my booking</a></p>
+        	<p><a href="https://airotour.checkfront.com/reserve/?filter_category_id=8">Gift cards</a></p>
+           </li>
+        </ul>
+
+     </div>
+  </div>
+</div>
+</div>
+<!--end footer-->    
+
+<!--start social footer-->   
+<div class="mainnav">
+<div class="nav">
+	<div class="footer-social">
+    	<div class="container">
+
+			<a href="https://www.facebook.com/sharer/sharer.php?u=www.airotour.com"><img src="pics/icons/Facebook.png" alt="airoTour on facebook"></a>
+			<a href="https://pinterest.com/pin/create/button/?url=www.airotour.com&media=Free%20walking%20tours%20around%20the%20world&description="><img src="pics/icons/Pinterest.png" alt="airoTour on Pinterest"></a>
+			<a href="https://plus.google.com/share?url=www.airotour.com"><img src="pics/icons/GooglePlus.png" alt="airoTour on googleplus"></a>
+			<a href="http://www.commments.com/"><img src="pics/icons/Dribbble.png"></a>
+			<a href="https://www.linkedin.com/company/airotour"><img src="pics/icons/LinkedIn.png" alt="airoTour on LinkedIn"></a>
+			<a href="www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false" alt="airoTour on Reddit"><img src="pics/icons/Reddit.png"></a>
+			<a href="https://twitter.com/home?status=Free%20walking%20tours%20around%20the%20world%20-%20www.airotour.com"><img src="pics/icons/Twitter.png" alt="airoTour on twitter"></a>
+		</div>
+  </div>
+</div>
+</div>
+<!--end social footer-->  
+
+<!-- mobile nav footer -->
+<div class="mobile-footer">
+<div class="mobile-nav">
+		
+		<div class="faq">
+<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center"><a href=""><img src="pics/logo1.png"></a> </h1>
+	</div>
+        <br>
+        <br>
+    <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#panelworking">Working with us</a></h4>
+                </div>
+				
+                <div id="panelworking" class="panel-collapse collapse ">
+                    <div class="panel-body"><div class="pull-left">
+						<p><a href="become-a-tour-guide">Become a Guide</a></p>
+						<p><a href="careers/careers.html">Careers</a></p>
+						<p><a href="http://airotour.checkfront.com">Register</a></p>
+						<p><a href="http://airotour.checkfront.com">Partner log in</a></p>
+						<p><a href="under-construction.html">Invite Friends</a></p>
+					</div></div></div></div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#paneluseful">Useful info</a></h4>
+                </div>
+				
+                <div id="paneluseful" class="panel-collapse collapse">
+                    <div class="panel-body"><div class="pull-left">
+					<p><a href="about">About us</a></p>
+					<p><a href="contact.php">Contact us</a></p>
+					<p><a href="terms-and-conditions">Terms and conditions</a></p>
+					<p><a href="privacy">Privacy</a></p>
+					<p><a href="disclaimer">Disclaimer</a></p>
+					<p><a href="sitemap.xml">Sitemap</a></p>
+					</div></div></div></div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#panelmanage">Manage</a></h4>
+                </div>
+				
+                <div id="panelmanage" class="panel-collapse collapse">
+                    <div class="panel-body"><div class="pull-left">
+					     <p><a href="http://airotour.checkfront.com">My booking</a></p>
+						<p><a href="http://airotour.checkfront.com">Print my booking</a></p>
+						<p><a href="https://airotour.checkfront.com/reserve/?filter_category_id=8">Gift cards</a></p></div>		
+					</div></div></div></div></div></div></div></div>	
+
+
+<!--start_google_analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71410446-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--end_google_analytics-->
+
+
+<!--start_script -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type='text/javascript' src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+
+<!--end script-->
+
+
+</html>
+</body>
+
+

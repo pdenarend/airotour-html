@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Airotour - Free walking tour in Lyon</title>
+
+  	<meta name="Description" content="AiroTour. Free walking tours in Lyon France">
+  	<meta name="Keywords" content="airo, airotour, free, tours, tour, guided, walking, free tour Lyon, Lyon, France">
+  	<meta name="robots" content="INDEX, FOLLOW">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/main.css">
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+		<script type="text/javascript">
+			window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"/privacy","theme":"dark-bottom"};
+		</script>
+
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+	<!-- End Cookie Consent plugin -->
+
+		<script type="text/javascript" src="//airotour.checkfront.com/lib/interface--30.js"></script>
+</head>
+
+<body>
+<!-- Navigation bar -->
+<div class="mainnav">
+<div class="nav">
+	<div class="container">
+  		<ul class="pull-left">
+  			<li><img src="/favicon/favicon-16x16.png"><a href="/">airoTour</a></li>
+  			<li><a href="/all-tours.html">Browse Tours</a></li>
+		</ul>
+		
+		<ul class="pull-right">
+          <li><a href="/become-a-tour-guide">Become a Guide</a></li>
+          <li><a href="http://airotour.checkfront.com">My Booking</a></li>
+		  <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact.php">Contact</a></li>
+		  <li><a href="/"><img src="/pics/English.jpg"></a></li>
+		  <li><a href="/es/"><img src="/pics/spain.png"></a></li>
+
+        </ul>
+  	</div>
+  	</div>
+	</div>
+<!-- Mobile Nav -->
+
+<div class="mobile-nav">
+<div class="container">
+  		<ul >
+  			<li class="pull-left"><a href="/"><img src="/pics/logonav.png"></a></li>
+			<li class="pull-right"><a class="btn btn-default" data-toggle="collapse" aria-expanded="false" href="#mobile-menu"><strong>Menu</strong></a></li>
+			</ul>
+			
+			<div class="collapse" id="mobile-menu">
+			<div class="collapsedmenu">
+			<div class="btn-group-vertical">
+			
+				<button type="button" class="btn btn-default"><a href="/all-tours.html">Browse Tours</a></button>
+				<button type="button" class="btn btn-default"><a href="/become-a-tour-guide">Become a Guide</a></button>
+				<button type="button" class="btn btn-default"><a href="http://airotour.checkfront.com">My Booking</a></button>
+				<button type="button" class="btn btn-default"><a href="/blog">Blog</a></button>
+				<button type="button" class="btn btn-default"><a href="/contact.php">Contact</a></li></button>
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Languages<span class="caret"></span></button>
+						<ul class="dropdown-menu" role="menu">
+						  <li><a href="/"><img src="/pics/English.jpg">English</a></li>
+						  <li><a href="/es/"><img src="/pics/spain.png">Spanish</a></li>
+						</ul>
+										
+					<!--<div class="mobile-language">
+					<a href="/"><img src="/pics/English.jpg"></a>
+					<a href="/es/"><img src="/pics/spain.png"></a></div>
+						</div>		-->
+			</div>
+			 
+		
+</div></div></div></div>
+
+	
+	
+<!-- Jumbotron -->
+<div class="lyon">
+<div class="jumbotron">
+		<div class="container">
+		<h1>Free tours in Lyon</h1>
+        <p>Join us on a free tour of Lyon and get to know this amazing city intimately.</p>
+		</div>
+</div>
+</div>
+
+<!-- Breadcrumbs -->
+<div class="container">
+<ol class="breadcrumb">
+    <li><a href="http://www.airotour.com">Home</a></li>
+	<li><a href="/all-tours">All Free Tours</a></li>
+    <li><a href="#">Free Tours in France</a></li>
+    <li><a href="/france/lyon/free-tour-lyon">Free Tours Lyon</a></li>
+</ol></div>
+
+<div class="intro">
+<div class="container">
+	<h2>Discover all the highlights of Lyon on a Free Tour</h2>
+	<p>Lyon is one of France's most important cities. It is an economic powerhouse in the region and it has a long history. It is also called the <strong>culinary capital of France</strong>. Many people come from far to eat at one of the traditional 'bouchon', the typical restaurants of the city. But the food is not the only reason to visit Lyon. The city has a beautiful historic center, which can rival with any other French town. You can explore Lyon by booking one of our free tours around the center of Lyon.</p>
+	<p>One of our free tours of Lyon can be the perfect way to get introduced to this amazing city. Our guides love to show you the most amazing spots in Lyon. You can ask any questions about living in France or the history and culture of the city.</p>
+	<p>We believe that free walking tours are the best way to enjoy and get to know a city, <strong>so book your free tour of Lyon below!</strong></p><hr><br>
+</div>
+</div>
+
+
+<!-- Tours Containter -->
+<div class="tourscontainer">
+<div class="container">
+<h2>Have a look at all our Free Tours in Lyon</h2>
+
+      
+      <div class="row">
+        
+        <div class="col-xs-18 col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <img src="http://www.airotour.com/pics/pagepics/citytourlyon.jpg" alt="">
+              <div class="caption equalize">
+                <h3 style="margin-bottom: 0px">City Tour Lyon</h3>
+				<div class="nav"><a href="#Review"><p>Free walking tour | <img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> | 7 reviews </p></a></div>
+                    		<p>During this city tour, you will get to know all the highlights of the center of Lyon. The walk takes you from Bellecour, the beautiful and enormous square, through Vieux Lyon, the old part of the city. On the way, you will see both the Saone and the Rhone rivers and their picturesque river banks. The walk takes you to the Cathedral de St. Jean and ends at Place Terreaux, the heart of the city center of Lyon.</p>
+
+                <p><div class="row">
+    		<div class="col-md-6">
+			    <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+                <div class="panel-heading">
+                     <p class="panel-title"><small><a data-toggle="collapse" data-parent="#accordion" href="#highlights">Highlights</a></small></p>
+                </div>
+				
+                <div id="highlights" class="panel-collapse collapse ">
+                    <div class="panel-body"><ul><li>Place Bellecour, Sa&ocirc;ne and Rh&ocirc;ne rivers</li>
+					<li>Vieux Lyon, Cath&eacute;drake Saint-Jean, H&ocirc;tel de Ville</li>
+					<li>Place Terreaux, Jardin du Palais St Pierre, Op&eacute;ra de Lyon</li>
+					</ul></div>
+                </div>
+            </div></div></div>
+			
+			<div class="col-md-6">
+			    <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+                <div class="panel-heading">
+                     <p class="panel-title"><small><a data-toggle="collapse" data-parent="#accordion" href="#usefulinfo">Useful Info</a></small></p>
+                </div>
+				
+                <div id="usefulinfo" class="panel-collapse collapse ">
+                    <div class="panel-body"><ul>
+					<li>Starting time: 10 am.</li>
+					<li>Meeting point: Place Bellecour</li>
+					<li>Language: English</li>
+					</ul></div>
+                </div>
+            </div></div></div>
+			
+					
+					
+					</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-18 col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <img src="http://www.airotour.com/pics/pagepics/vieuxlyon.jpg" alt="">
+              <div class="caption equalize">
+                <h3 style="margin-bottom: 0px">Vieux Lyon</h3>
+				<div class="nav"><a href="#Review"><p>Free walking tour | <img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> | 5 reviews </p></a></div>
+               <p>This free tour explores the old and charming neighborhood of Vieux Lyon. This is the oldest part of Lyon and definitely the neighborhood with the most character. It is located on the river bank of the Saone. Your tour guide will show you all the highlight of the neighborhood, such as the Cathedral St. Jean, the charming Place de la Baleine and the Place de Gouvernement. This area is filled with hidden passageways called 'Traboules', that your guide would love to show you.</p>
+                <div class="row">
+    		<div class="col-md-6">
+			    <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+                <div class="panel-heading">
+                     <p class="panel-title"><small><a data-toggle="collapse" data-parent="#accordion" href="#highlights1">Highlights</a></small></p>
+                </div>
+				
+                <div id="highlights1" class="panel-collapse collapse ">
+                    <div class="panel-body"><ul><li>Cath&eacute;drale Saint-Jean, Archeological garden Saint-Jean</li>
+					<li>Traboules, La Maison des Avocats, Palais de Justice</li>
+					<li>Place du Gouvernement, Temple du Change, Rue Juiverie</li>
+					</ul></div>
+                </div>
+            </div></div></div>
+			
+			<div class="col-md-6">
+			    <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+                <div class="panel-heading">
+                     <p class="panel-title"><small><a data-toggle="collapse" data-parent="#accordion" href="#usefulinfo1">Useful Info</a></small></p>
+                </div>
+				
+                <div id="usefulinfo1" class="panel-collapse collapse ">
+                    <div class="panel-body"><ul>
+					<li>Starting time: 15 pm.</li>
+					<li>Meeting point: Place Saint-Jean</li>
+					<li>Language: English</li>
+					</ul></div>
+                </div>
+            </div></div></div></div>
+		
+			</div>
+          </div>
+        </div>
+</div></div></div>
+
+
+						
+			<div class="checkfrontcontainer">
+			<div class="container">
+			<h2>Make your booking by clicking on 'Book Now' below!</h2>
+	<!-- CHECKFRONT BOOKING PLUGIN v23-->
+<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//airotour.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+<script>
+new CHECKFRONT.Widget ({
+host: 'airotour.checkfront.com',
+target: 'CHECKFRONT_WIDGET_01',
+item_id: '1,31',
+category_id: '1',
+provider: 'droplet'
+}).render();
+</script>
+<noscript><a href="https://airotour.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+			
+			
+		</div>
+		<br>
+			<br>
+		</div>
+
+
+
+
+
+		
+<!-- Nav tabs -->
+<div class="tabs-under">
+<div class="container">
+<ul class="nav nav-tabs">
+ <li class="active"><a href="#Review" data-toggle="tab">Reviews</a></li>
+  <li><a href="#FAQ" data-toggle="tab">FAQ</a></li>
+  <li><a href="#Contact" data-toggle="tab">Contact</a></li>
+  <li><a href="#Discover" data-toggle="tab">Lyon</a></li>
+  <li><a href="#Map" data-toggle="tab">Map</a></li>
+  <li><a href="#About" data-toggle="tab">About Us</a></li>
+
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+
+
+<!-- reviews -->
+	<div class="tab-pane active" id="Review">
+		  <div class="faq">
+		<div class="container">
+			<div class="page-header ">
+						<h1 class="text-center">Reviews<br><small> Here you find the latest reviews for our tours</small></h1>
+
+					<div class="well well-sm entete"></div><br>
+			</div>
+						
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free City Tour Lyon - "Great and only for tips!"</h4>
+				<p>Review by Petra, Germany - January 15, 2016</p>
+				<br>				
+				<p>We booked this tour when we read the reviews. It was such an excellent idea. Our guide was a very friendly guy and he showed us all the main sites and also some of his favourite places. He also gave us ideas for the rest of our trip. I would recommend this tour.</p> 
+				
+				<hr>
+				
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free Tour of Vieux Lyon - "2 hours well spend"</h4>
+				<p>Review by Peter, UK - December 14, 2015</p>
+				<br>				
+				<p>Our guide covered quite a lot of the main sites and attractions with his own narration within this Tour of 2 hours, sense of humour included! We found out some interesting facts about these sites which I probably wouldn't get from a book. All together, I really enjoyed myself. Would recommend it for those who want to have a quick tour of the city's main sites and also to get your bearings. After, you can revisit some of the nicer places and enjoy them on your own.</p> 
+				
+				<hr>
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free City Tour Lyon - "All in all, this is a must tour!"</h4>
+				<p>Review by Noa H, Israel - December 1, 2015</p>
+				<br>				
+				<p>We took the city tour yesterday on the 1st of December. I just want to say that it was great! Our guide was really nice, he explained everything in a very interesting way. He also made sure everyone was having a great time. He also gave a lot of tips about Lyon. You can see he really cares, for example since I'm pregnant, he made sure that I was doing fine and had a place to sit on the stops and so on.. We will definitely recommend this tour!</p> 
+				<hr>
+				
+				
+				<div class="toursbutton">
+		<a class="btn btn-default" data-toggle="collapse" aria-expanded="false" href="#morereviews"><strong>See All Reviews</strong></a></div>
+				
+				<div class="collapse" id="morereviews">
+				
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free Tour of Vieux Lyon - "We really enjoyed ourselves!"</h4>
+				<p>Review by Jessica, US - September 27, 2015</p>
+				<br>				
+				<p>We took Vieux Lyon tour yesterday on the 27th May. We really enjoyed ourselves</p> 
+				<hr>
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free City Tour Lyon - "The tour was very detailed!"</h4>
+				<p>Review by John, Ireland - October 3, 2015</p>
+				<br>				
+				<p>The tour was fantastic. The tour guide arrived on time. He was happy to show us around the beautiful city of Lyon. The tour was very detailed and informative. Even after our tour, he gave us great ideas for the rest of our stay. It was definitely worth it!!</p> 
+				<hr>
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free Tour of Vieux Lyon - "Our guide was lovely we had a great time!"</h4>
+				<p>Review by Kees, Holland - January 17, 2015</p>
+				<br>				
+				<p>Our guide was lovely we had a great time</p> 
+				<hr>
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free Tour of Vieux Lyon - "This was the best tour of Lyon!"</h4>
+				<p>Review by Salvatore, Italy - August 21, 2015</p>
+				<br>				
+				<p>This was the best tour of Lyon. We learned many interesting facts and visited excellent sites. Jean is very friendly and enthusiastic. Our children both said how much they enjoyed the walking tour. We felt happy to give a nice tip as it was so worth it! Don't hesitate, book all tours if you have the time.</p> 
+				<hr>
+				
+				<h4><img class="rating" alt="5 Star Rating: Excellent" src="/pics/icons/star.jpg"> Free City Tour Lyon - "We were recommended sights and places to go!"</h4>
+				<p>Review by June, US - December 10, 2015</p>
+				<br>				
+				<p>Yesterday, we were a group of only three ladies on the city tour of Lyon, so it was really a private tour. Our guide told us a lot of exciting history from Lyon and showed us nice details around the city. Furthermore we were recommended sights and places to go. Also we were encouraged to ask, if we did not understand. Thank you so much for this informative tour. </p> 
+				<hr>
+				
+								
+				</div>
+				
+				</div></div>
+	</div>
+
+
+
+
+  <div class="tab-pane" id="FAQ">
+  <!--........................................  FAQ     .......................................-->
+<!--.........................................................................................-->
+
+<div class="faq">
+<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center">FAQ <br><small> You have questions,we have answers.</small></h1>
+
+            <div class="well well-sm entete"></div>
+    </div>
+        <br>
+        <br>
+    <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">I see you charge a booking fee of 2,50? I thought the tours are free.</a></h4>
+                </div>
+				
+                <div id="collapseFour" class="panel-collapse collapse ">
+                    <div class="panel-body">Yes, if you want to book one of our tours, we charge a small booking fee of 2,50. This is to cover the costs of maintaining our office, booking engine and website. Also, this way we can guarantee that the groups are never bigger than 20 persons, so you always will be able to understand and interact with the guide.</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">What language are the tours in?</a></h4>
+                </div>
+				
+                <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">Most of our tours are in English. However, we also provide tours in different languages. Make sure you check which language your tour is in before you book.</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Where is the meeting point in Lyon?</a></h4>
+                </div>
+				
+                <div id="collapseSix" class="panel-collapse collapse">
+                    <div class="panel-body">We try to provide many different free walking tours in every city. Check out the details at the tour you are interested in. You will find the specific meeting point and time there.</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">How much should I tip the guide?</a></h4>
+                </div>
+				
+                <div id="collapseSeven" class="panel-collapse collapse">
+                    <div class="panel-body">Our guides work for tips only. You can tip them as much or little as you want. Just give them the amount you think the tour deserved. This system makes sure that the guides work hard for their money and you get the best tour possible. Also, if you are on a small budget, you can still enjoy a great tour with the best guides on your holiday!</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseHeight">Can I  make changes to my reservation after I booked?</a></h4>
+
+                </div>
+                <div id="collapseHeight" class="panel-collapse collapse">
+                    <div class="panel-body">Yes, this is no problem at all. We will always try to accommodate your needs, if they are reasonable. You can even cancel and get your money back if you do it 72 hours in advance.</div>
+                </div>
+            </div>
+        </div>
+		</div>
+		</div>
+		</div>
+		  
+  
+  
+  
+  <!--<div class="tab-pane" id="Review">
+	
+	...
+    </div>-->
+
+  
+  
+  
+  
+  
+  
+  <div class="tab-pane" id="Contact">
+  
+  	<div class="faq">
+	<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center">Contact us<br><small>Questions? Send us a message.</small></h1>
+
+            <div class="well well-sm entete"></div>
+    </div>
+
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  					<form name="htmlform" method="post" action="/html_form_send.php">
+					<table width="450px">
+					</tr>
+					<tr>
+					 <td valign="top">
+					  <label for="first_name">First Name *</label>
+					 </td>
+					 <td valign="top">
+					  <input  type="text" name="first_name" maxlength="50" size="30">
+					 </td>
+					</tr>
+					 
+					<tr>
+					 <td valign="top"">
+					  <label for="last_name">Last Name *</label>
+					 </td>
+					 <td valign="top">
+					  <input  type="text" name="last_name" maxlength="50" size="30">
+					 </td>
+					</tr>
+					<tr>
+					 <td valign="top">
+					  <label for="email">Email Address *</label>
+					 </td>
+					 <td valign="top">
+					  <input  type="text" name="email" maxlength="80" size="30">
+					 </td>
+					 
+					</tr>
+					<!--<tr>
+					 <td valign="top">
+					  <label for="telephone">Telephone Number</label>
+					 </td>
+					 <td valign="top">
+					  <input  type="text" name="telephone" maxlength="30" size="30">
+					 </td>
+					</tr>-->
+					<tr>
+					 <td valign="top">
+					  <label for="comments">Comments *</label>
+					 </td>
+					 <td valign="top">
+					  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+					 </td>
+					 
+					</tr>
+					<tr>
+					 <td colspan="2" style="text-align:center">
+					  <input type="submit" value="Submit">   
+					 </td>
+					</tr>
+					</table>
+					</form>
+			</div>
+		</div>
+	</div>   
+	</div>
+  
+  </div>
+  
+  
+<div class="tab-pane" id="Discover">
+	
+<div class="faq">
+<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center">Discover Lyon <br><small>Here you can find some tips on what to see and do in Lyon</small></h1>
+
+            <div class="well well-sm entete"></div>
+    </div>
+        <br>
+        <br>
+    <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#whentogo">What is the best time to visit Lyon?</a></h4>
+                </div>
+				
+                <div id="whentogo" class="panel-collapse collapse ">
+                    <div class="panel-body">If you like the sun, spring and summer are the best time to visit Lyon. But even in winter the city is really nice to visit. Winter is the perfect time to eat the famous French mountain dish raclette and even if it rains, there are many indoor activities like the new and amazing Musee de Confluence. In short, any time a year is perfect for a weekend get-away to Lyon. But even if you want to stay a week, Lyon has more than enough to offer. Just make sure to join one of our Free Walking Tours of Lyon, to get to know the city well!</div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#highlights3">What are some of the highlights of Lyon?</a></h4>
+                </div>
+				
+                <div id="highlights3" class="panel-collapse collapse">
+                    <div class="panel-body">Lyon has many highlights. On our free walking tours of Lyon you will see many of them. There are beautifull squares like the Place de Bellecour and Place de Terreaux. There are majestic Churches like the Basilique de Fourviere and the Cathedral de St. Jean. The old neighborhood Vieux Lyon is both beautiful and very fun. The Presque'Ile is where the city center is. Here you can find great restaurants and it's the best place for shopping. And if you feel more like visiting a museum, we recommend the Musee de Confluence, a new science museum or the Musee de Beaux-Arts de Lyon, where you can find an important collection of paintings and statues. </div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#tips">Do you have some tips for when I visit Lyon?</a></h4>
+                </div>
+				
+                <div id="tips" class="panel-collapse collapse">
+                    <div class="panel-body">On our free walking tours of Lyon, your guide will answer all your questions and give you some useful tips for your stay in Lyon, like: <ul><li>Eat at a bouchon, a typical Lyonaise restaurant.</li>
+					<li>Walk up to Fourviere, for an amazing view of the city.</li>
+					<li>Visit Vieux Lyon at night, to find a nice restaurant or bar</li>
+					<li>Go up to the Roman Theatre, to enjoy some classical culture</li>
+					<li>Visit the Parc de Tete d'Or, with its free zoo</li>
+					
+					</ul></div>
+                </div>
+            </div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#reading">What books or websites can I read to prepare me for my stay in Lyon</a></h4>
+                </div>
+				
+                <div id="reading" class="panel-collapse collapse">
+                    <div class="panel-body">The lonely planet guide for france is a good start with some basic information. The <a href="http://www.onlylyon.com/en/">Only Lyon</a> website gives you some useful information about your stay in Lyon.</div>
+                </div>
+            </div>
+			
+            
+        </div>
+		</div>
+		</div>
+
+</div>
+	
+	
+	<div class="tab-pane" id="Map">
+	<div class="faq">
+	<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center">Map of Lyon <br><small>Here you can see a map of the center of Lyon</small></h1>
+
+            <div class="well well-sm entete"></div>
+    </div>
+        <br>
+        <br>
+	<div class="row">
+  			<div class="col-md-6 col-md-offset-2">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11133.671390372387!2d4.842302319604496!3d45.762815616514274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1snl!2sus!4v1452767679383" width="700" height="600" frameborder="0" style="border:0"></iframe></div></div>
+    </div></div></div>
+	
+    <div class="tab-pane" id="About">
+	<div class="faq">
+	<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center">AiroTour <br><small>The Free Tour Company</small></h1>
+
+            <div class="well well-sm entete"></div>
+    </div>
+        <br>
+        <br>
+
+	<p>We at AiroTour are providing Free Tours all over the world. At the moment, we are rapidly expanding. We try to combine the benefits of a Free tour with the service of a full tour company. This is why you can book with us, groups are never big and we only employ the best guides available. Come join one of our tours and see for yourself!</p>
+    </div></div></div>
+
+</div>
+</div>
+</div>
+
+
+<!--start footer-->    
+<div class="mainnav">
+<div class="nav">
+	<div class="footer">
+    	<div class="container">
+        	<ul class="pull-left">
+  			<a href="/"><img src="/pics/logo1.png"></a>
+			</ul>
+		
+        	<ul class="pull-right">
+        	<li><h3>Work with us</h3>
+        	<p><a href="/become-a-tour-guide">Become a Guide</a></p>
+			<p><a href="/careers/careers.html">Careers</a></p>
+        	<p><a href="http://airotour.checkfront.com">Register</a></p>
+        	<p><a href="http://airotour.checkfront.com">Partner log in</a></p>
+        	<p><a href="http://airotour.checkfront.com">Invite Friends</a></p>
+          </li>
+        </ul>
+
+        	<ul class="pull-right">
+        	<li><h3>Useful info</h3>
+        	<p><a href="/about">About us</a></p>
+        	<p><a href="/contact.php">Contact us</a></p>
+        	<p><a href="/terms-and-conditions">Terms and conditions</a></p>
+			<p><a href="/privacy">Privacy</a></p>
+			<p><a href="/disclaimer">Disclaimer</a></p>
+        	<p><a href="/sitemap.xml">Sitemap</a></p>
+           </li>
+        </ul>
+
+        	<ul class="pull-right">
+        	<li><h3>Manage</h3>
+        	<p><a href="http://airotour.checkfront.com">My booking</a></p>
+        	<p><a href="http://airotour.checkfront.com">Print my booking</a></p>
+        	<p><a href="https://airotour.checkfront.com/reserve/?filter_category_id=8">Gift cards</a></p>
+           </li>
+        </ul>
+
+     </div>
+  </div>
+</div>
+</div>
+<!--end footer-->    
+
+<!--start social footer-->   
+<div class="mainnav">
+<div class="nav">
+	<div class="footer-social">
+    	<div class="container">
+
+			<a href="https://www.facebook.com/sharer/sharer.php?u=www.airotour.com"><img src="/pics/icons/Facebook.png" alt="airoTour on facebook"></a>
+			<a href="https://pinterest.com/pin/create/button/?url=www.airotour.com&media=Free%20walking%20tours%20around%20the%20world&description="><img src="/pics/icons/Pinterest.png" alt="airoTour on Pinterest"></a>
+			<a href="https://plus.google.com/share?url=www.airotour.com"><img src="/pics/icons/GooglePlus.png" alt="airoTour on googleplus"></a>
+			<a href="http://www.commments.com/"><img src="/pics/icons/Dribbble.png"></a>
+			<a href="https://www.linkedin.com/company/airotour"><img src="/pics/icons/LinkedIn.png" alt="airoTour on LinkedIn"></a>
+			<a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false" alt="airoTour on Reddit"><img src="/pics/icons/Reddit.png"></a>
+			<a href="https://twitter.com/home?status=Free%20walking%20tours%20around%20the%20world%20-%20www.airotour.com"><img src="/pics/icons/Twitter.png" alt="airoTour on twitter"></a>
+		</div>
+  </div>
+</div>
+</div>
+<!--end social footer-->  
+
+<!-- mobile nav footer -->
+<div class="mobile-footer">
+<div class="mobile-nav">
+		
+		<div class="faq">
+<div class="container">
+    <div class="page-header ">
+            	<h1 class="text-center"><a href="/"><img src="/pics/logo1.png"></a> </h1>
+	</div>
+        <br>
+        <br>
+    <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#panelworking">Working with us</a></h4>
+                </div>
+				
+                <div id="panelworking" class="panel-collapse collapse ">
+                    <div class="panel-body"><div class="pull-left">
+						<p><a href="/become-a-tour-guide">Become a Guide</a></p>
+						<p><a href="/careers/careers.html">Careers</a></p>
+						<p><a href="http://airotour.checkfront.com">Register</a></p>
+						<p><a href="http://airotour.checkfront.com">Partner log in</a></p>
+						<p><a href="/under-construction.html">Invite Friends</a></p>
+					</div></div></div></div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#paneluseful">Useful info</a></h4>
+                </div>
+				
+                <div id="paneluseful" class="panel-collapse collapse">
+                    <div class="panel-body"><div class="pull-left">
+					<p><a href="/about">About us</a></p>
+					<p><a href="/contact.php">Contact us</a></p>
+					<p><a href="/terms-and-conditions">Terms and conditions</a></p>
+					<p><a href="/privacy">Privacy</a></p>
+					<p><a href="/disclaimer">Disclaimer</a></p>
+					<p><a href="/sitemap.xml">Sitemap</a></p>
+					</div></div></div></div>
+			
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#panelmanage">Manage</a></h4>
+                </div>
+				
+                <div id="panelmanage" class="panel-collapse collapse">
+                    <div class="panel-body"><div class="pull-left">
+					     <p><a href="http://airotour.checkfront.com">My booking</a></p>
+						<p><a href="http://airotour.checkfront.com">Print my booking</a></p>
+						<p><a href="https://airotour.checkfront.com/reserve/?filter_category_id=8">Gift cards</a></p></div>		
+					</div></div></div></div></div></div></div></div>	
+
+
+<!--start_google_analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71410446-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--end_google_analytics-->
+
+
+<!--start_script -->
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script type='text/javascript' src="../../js/bootstrap.min.js"></script>
+<script src="../../js/app.js"></script>
+
+<!--end script-->
+
+
+</html>
+</body>
+
+

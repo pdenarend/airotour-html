@@ -1,0 +1,1094 @@
+html,body {
+    height: 100%;
+	left: 0;
+  	top: 0;
+  	margin: 0;
+  /*: hidden;*/
+  position: relative;
+}
+
+.howitworks {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -100%;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+}
+
+.howitworks h1 {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000; 
+  text-align: center;
+}
+
+.howitworks h2 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+
+.howitworks .steps {
+	margin-top: 50px;
+}
+
+.howitworks .steps img {
+	width: 200px;
+    height: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.howitworks h3 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.howitworks p {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+
+.howitworks a {
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 2px 2px 5px #000000;
+ }
+
+.icon-close {
+  cursor: pointer;
+  float: right;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+    cursor: pointer;
+  }
+  
+.nav .container {
+	position: relative;
+}	
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a:hover {
+color: #069;
+}
+
+.front-image {
+  background-image:url('pics/front-image.jpg');
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron {
+  height: 500px;
+  background:transparent;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000; 
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.jumbotron a {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+  text-decoration:none;
+}
+
+.jumbotron .button {
+	/*background:#CCC;*/
+	margin:0 auto;
+	display: block;
+	height: 35px;
+	width: 170px;
+	border: 2px solid #ffffff;
+	border-radius: 6px;
+	color: #CCC;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+.jumbotron .button:hover {
+	/*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #23670c), color-stop(1, #78a809));
+	background:-moz-linear-gradient(top, #23670c 5%, #78a809 100%);*/
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.rome {
+	background-image:url('pics/pagepics/free-tour-rome.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+} 
+
+.lyon {
+  background-image:url('pics/pagepics/free-tour-lyon.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.naples {
+background-image:url('pics/pagepics/free-tour-naples.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.barcelona {
+  background-image:url('pics/pagepics/free-tour-barcelona.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.madrid {
+  background-image:url('pics/pagepics/free-tour-madrid.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.paris {
+  background-image:url('pics/pagepics/free-tour-paris.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.amsterdam {
+  background-image:url('pics/pagepics/free-tour-amsterdam.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+	
+}
+
+.marrakech {
+  background-image:url('pics/pagepics/free-tour-marrakech.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+
+}
+
+.bangkok {
+  background-image:url('pics/pagepics/free-tour-bangkok.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.london {
+  background-image:url('pics/pagepics/free-tour-london.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.new-york {
+  background-image:url('pics/pagepics/free-tour-new-york.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.miami {
+  background-image:url('pics/pagepics/miamijumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.dubai {
+  background-image:url('pics/pagepics/dubaijumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+.istanbul {
+  background-image:url('pics/pagepics/istanbuljumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+.kualalumpur {
+  background-image:url('pics/pagepics/kuala-lumpurjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.tokyo {
+  background-image:url('pics/pagepics/tokyojumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+.sydney {
+  background-image:url('pics/pagepics/sydneyjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.vienna {
+  background-image:url('pics/pagepics/viennajumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.hongkong {
+  background-image:url('pics/pagepics/hong-kongjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.prague {
+  background-image:url('pics/pagepics/praguejumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+
+.munich {
+  background-image:url('pics/pagepics/munichjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.berlin {
+  background-image:url('pics/pagepics/berlinjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.milan {
+  background-image:url('pics/pagepics/milanjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.intro {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.intro h2 {
+	font-family: 'Shift', sans-serif;
+	padding-bottom: 15px;
+}
+
+
+.neighborhood-guides {
+	font-family: 'Shift', sans-serif;
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+	padding-top: 30px;
+}
+
+.neighborhood-guides h2 {
+ color: #393c3d;
+ font-size: 28px;
+ text-align: center;
+ }
+
+.neighborhood-guides .wheretogo p {
+    font-size: 18px;
+    margin-bottom: 40px;
+	text-align: center;
+}
+.neighborhood-guides p {
+    font-size: 15px;
+	text-align: center;
+}
+
+.neighborhood-guides .thumbnail {
+    position:relative;
+    overflow:hidden;
+	max-width: 360px;
+	    margin: auto;
+		margin-bottom: 15px;
+
+}
+ 
+.neighborhood-guides .caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.90);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.toursbutton {
+	Font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 15px;
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+	padding-bottom: 25px;
+}
+
+
+.learn-more {
+	font-family: 'Shift', sans-serif;
+  background-color: #f7f7f7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+
+.faq {
+	font-family: 'Shift', sans-serif;
+	padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.footer {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+
+.footer h1 {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000; 
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 2px 2px 5px #000000;
+ }
+ 
+.footer-social {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  position: relative;
+  width: 100%;
+  padding-top:15px;
+  padding-bottom:15px;
+  text-align:center;
+  border-top:dashed #FFFFFF;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 2px 2px 5px #000000;
+ }
+ 
+.becomeaguide {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  position: fixed;
+  overflow: auto;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ .becomeaguide .guideicon-close {
+ cursor: pointer;
+  float: right;
+  padding-left: 10px;
+  padding-top: 10px;
+ }
+
+.becomeaguide h1 {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000; 
+  text-align: center;
+}
+
+.becomeaguide h2 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+
+.becomeaguide .steps {
+	margin-top: 50px;
+}
+
+.becomeaguide .steps img {
+	width: 200px;
+    height: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.becomeaguide h3 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.becomeaguide li {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.becomeaguide p {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+  text-align:center;
+}
+
+.becomeaguide a {
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 2px 2px 5px #000000;
+ }
+ 
+ .simple-background {
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+ }
+ 
+ .contactjumbo {
+  background-image:url('pics/contactjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+
+ }
+ .contact-airo {
+	 padding-top: 50px;
+	 padding-bottom: 100px;
+ }
+ 
+ .blogjumbo {
+  background-image:url('pics/blogjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+ }
+
+ .aboutjumbo {
+  background-image:url('pics/aboutjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+ 
+ }
+ 
+  .all-toursjumbo {
+  background-image:url('pics/all-toursjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+ 
+ }
+ 
+ .privacyjumbo {
+  background-image:url('pics/privacyjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+ }
+
+ .termsjumbo {
+  background-image:url('pics/termsjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+ 
+ }
+ 
+ .disclaimerjumbo {
+	  background-image:url('pics/disclaimerjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+ }
+ 
+ .our-guidesjumbo {
+  background-image:url('pics/our-guidesjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+ 
+ }
+ 
+ .free-tour-policyjumbo {
+  background-image:url('pics/free-tour-policyjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+
+ }
+ 
+ .under-constructionjumbo {
+  background-image:url('pics/under-constructionjumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 0px;
+
+	 
+ }
+ 
+ .tabs-under {
+		 padding-top: 50px;
+	 padding-bottom: 100px;
+ 
+	 
+ }
+ 
+ .breadcrumb {
+	  background-color: #fff;
+	padding-left:0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+ }
+ 
+.breadcrumb li {
+    display: inline;
+  font-family: 'Shift', sans-serif;
+}
+.breadcrumb li+li:before {
+    content:">";
+}
+
+.tourscontainer {
+ 
+
+    /*border-bottom: 1px solid #dbdbdb;*/
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.tourscontainer h2 {
+  font-family: 'Shift', sans-serif;
+  font-size: 28px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.tourscontainer h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tourscontainer a {
+  
+
+}
+
+.tourscontainer .container {
+	padding-left: 7%;
+	padding-right: 5%;
+}
+
+
+
+
+
+#myCarousel .nav > li > a {
+    
+    display: inline;
+    width: 100px;
+	height: 100px;
+}
+
+
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+
+
+.nav-justified > li > a
+{
+    border-radius: 0px;
+	
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+
+
+
+.checkfrontcontainer {
+		padding-top: 20px;
+
+	  background-color: #f7f7f7;
+
+}
+
+.checkfrontcontainer h2 {
+	font-family: 'Shift', sans-serif;
+	font-size: 26px;
+	text-align: center;
+}
+
+
+ 
+ /* CSS used here will be applied after bootstrap.css */
+/*.jumbotron{width:80%;margin-left:10%;max-width: 1200px;margin-left:auto; margin-right:auto;}*/
+.img-center {margin:0 auto;}
+.dl-horizontal dt{white-space: normal;}
+.omacenter{margin-left:auto; margin-right:auto;}
+.titre{color:#fff;}
+.entete{background-color: #ed1c24;width:80%;margin-left:10%;}
+
+
+/*Timeline*/
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 50%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li.timeline-inverted + li:not(.timeline-inverted),
+.timeline > li:not(.timeline-inverted) + li.timeline-inverted {
+margin-top: -60px;
+}
+
+.timeline > li:not(.timeline-inverted) {
+padding-right:90px;
+}
+
+.timeline > li.timeline-inverted {
+padding-left:90px;
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+.mobile-footer {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 75px;
+
+
+}
+
+@media only screen and (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+.mainnav {
+	display: none;
+}
+
+/*.tabs-under .nav {
+	display: inline-block;	
+	
+}*/
+
+.mobile-nav {
+	display: relative;
+	padding-bottom: 20px;
+		
+}
+.mobile-nav ul {
+	font-size: 20px;
+	list-style: none;
+	padding: 15px;
+}
+
+.collapsedmenu {
+	padding-top: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.collapsedmenu .btn {
+	width: 300px;
+}
+
+
+.collapsedmenu button, button a {
+	font-size: 20px;
+	color: #337ab7;
+}
+
+.mobile-language {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.howitworks {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -360px;  /* start off behind the scenes */
+  /*overflow: auto;*/
+  width: 50%;
+}
+}
+
+@media only screen and (min-width:481px) { 
+.howitworks {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -100%;  /* start off behind the scenes */
+  /*overflow: auto;*/
+  width: 50%
+}
+
+
+ }
+ 
+ 
+@media only screen and (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+.mainnav {
+	display: inline;
+}
+.mobile-nav {
+	display: none;
+}
+
+.howitworks {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -100%;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  width: 50%;
+}
+}
+
+
+@media only screen and (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+.neighborhood-guides h4 {
+    font-size: 14px;
+	text-align: center;
+}
+.neighborhood-guides p {
+    font-size: 12px;
+	text-align: center;
+}
+.howitworks {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -100%;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+}
+
+ }
+@media only screen and (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
+
+.howitworks {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -100%;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+}
+
+}
+
+
+@media only screen and (min-width:1281px) { /* hi-res laptops and desktops */ 
+.neighborhood-guides h4 {
+    font-size: 16px;
+	text-align: center;
+}
+.neighborhood-guides p {
+    font-size: 15px;
+	text-align: center;
+}
+}
+
+
+
+
+
